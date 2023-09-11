@@ -1,0 +1,87 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+.box {
+  width: 380px;
+  height: 650px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  margin-top: 200px;
+  margin-left: 700px;
+}
+.box img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.container h2 {
+  color: hsl(0, 0%, 100%);
+  padding-left: 34px;
+}
+.container p {
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  padding-left: 35px;
+}
+.coll img {
+  width: 20px;
+  height: 20px;
+  padding-bottom: 30px;
+}
+.coll {
+  color: hsl(178, 100%, 50%);
+  display: flex;
+  align-items: center;
+}
+time {
+  color: hsl(215, 51%, 70%);
+}
+.line {
+  background-color: hsl(215, 32%, 27%);
+  width: 90%;
+  height: 2px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.creation img {
+  width: 30px;
+  height: 30px;
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 0%, 100%);
+  border-width: 2px;
+  border-style: solid;
+  margin-bottom: 30px;
+}
+.creation {
+  color: hsl(215, 51%, 70%);
+  bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+time {
+  color: hsl(0, 0%, 100%);
+  padding-left: 2px;
+}
+@media only screen and (min-width: 320px) {
+  .container {
+    width: 310;
+  }
+}
+@media only screen and(min-width :786px) {
+  .container {
+    width: 600px;
+  }
+}
+@media only screen and(min-width :900px) {
+  .container {
+    width: 800px;
+  }
+}
+@media only screen and(min-width :1200px) {
+  .container {
+    width: 1000px;
+  }
+}
